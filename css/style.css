@@ -1,0 +1,286 @@
+
+nav li{
+  list-style: none;
+  /* padding: 15px 0 15px 30px; */
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  /* color: rgba(255, 255, 255, 0.6); */
+  /* white-space: nowrap;
+  transition: 0.3s; */
+}
+
+.hero .container {
+  z-index: 1;
+}
+.satu{
+  background-image: url(/picture/bgawal.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+.btn-lg{
+  padding: 10px 20px;
+  font-size: 40px;
+  font-weight: 800;
+  
+}
+.kanan{
+  background-image: url(/picture/bg51.jpg);
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 120px 0;
+  z-index: 3;
+  background-size: cover;
+}
+.kiri{
+  background: #1b2f45;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 240px 0;
+  z-index: 3;
+}
+.kananlog{
+  background-image: url(/picture/bg41.jpg);
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 120px 0;
+  z-index: 3;
+  background-size: cover;
+}
+.kirilog{
+  background: #1b2f45;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 240px 0;
+  z-index: 3;
+}
+
+#congrat{
+  bottom: 15%;
+  position: absolute;
+  right: 40%;
+  -webkit-animation-duration: 5s;/* Penundaan 2 detik sebelum animasi dimulai */
+}
+
+
+#run11 {
+  bottom: 8%;
+  position: absolute;
+  right: 20%; /* Menentukan posisi horizontal awal sebelum animasi */
+  -webkit-animation: linear ease;
+  -webkit-animation-name: run1;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-delay: 1.5s; /* Penundaan 2 detik sebelum animasi dimulai */
+}
+
+@-webkit-keyframes run1 {
+  0% {
+    right: 20%; /* Posisi awal elemen saat animasi dimulai */
+  }
+  50% {
+    right: 80%;
+  }
+  100% {
+    right: 80%;    
+  }
+}
+
+  #run21{
+    bottom: 24%;
+    position: absolute;
+    right: 30%;
+    -webkit-animation: linear;
+    -webkit-animation-name: run2;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-delay: 1.5s;
+  }
+  @-webkit-keyframes run2 {
+    0% {
+      right: 30%;
+    }
+    50% {
+      right: 80%;
+    }
+    100% {
+      right: 80%;    
+    }
+  }
+
+  #run31{
+    bottom: 39%;
+    position: absolute;
+    right: 47%;
+    -webkit-animation: linear;
+    -webkit-animation-name: run3;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1.5s;
+  }
+  @-webkit-keyframes run3 {
+    0% {
+      right: 47%;
+    }
+    50% {
+      right: 87%;
+    }
+    100% {
+      right: 87%;    
+    }
+  }
+
+  #run41{
+    bottom: 52%;
+    position: absolute;
+    right: 55%;
+    -webkit-animation: linear;
+    -webkit-animation-name: run4;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-delay: 2s;
+  }
+  @-webkit-keyframes run4 {
+    0% {
+      right: 55%;
+    }
+    50% {
+      right: 88%;
+    }
+    100% {
+      right: 88%;    
+    }
+  }
+  #run111 {
+    bottom: 5%;
+    position: absolute;
+    right: 0%; /* Menentukan posisi horizontal awal sebelum animasi */
+    -webkit-animation: linear ease;
+    -webkit-animation-name: run11;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-delay: 1s; /* Penundaan 2 detik sebelum animasi dimulai */
+    z-index: 4;
+  }
+  
+  @-webkit-keyframes run11 {
+    0% {
+      right: 00%; /* Posisi awal elemen saat animasi dimulai */
+    }
+    50% {
+      right: 100%;
+    }
+    100% {
+      right: 100%;    
+    }
+  }
+  
+    #run211{
+      bottom: 15%;
+      position: absolute;
+      right: 0%;
+      -webkit-animation: linear;
+      -webkit-animation-name: run21;
+      -webkit-animation-duration: 7s;
+      -webkit-animation-delay: 1s;
+      z-index: 3;
+    }
+    @-webkit-keyframes run21 {
+      0% {
+        right: 0%;
+      }
+      50% {
+        right: 100%;
+      }
+      100% {
+        right: 100%;    
+      }
+    }
+  
+    #run311{
+      bottom: 25%;
+      position: absolute;
+      right: 0%;
+      -webkit-animation: linear;
+      -webkit-animation-name: run31;
+      -webkit-animation-duration: 10s;
+      -webkit-animation-delay: 1s;
+      z-index: 2;
+      
+    }
+    @-webkit-keyframes run31 {
+      0% {
+        right: 0%;
+      }
+      50% {
+        right: 100%;
+      }
+      100% {
+        right: 100%;    
+      }
+    }
+  
+    #run411{
+      bottom: 33%;
+      position: absolute;
+      right: 0%;
+      -webkit-animation: linear;
+      -webkit-animation-name: run41;
+      -webkit-animation-duration: 6s;
+      -webkit-animation-delay: 1s;
+    }
+    @-webkit-keyframes run41 {
+      0% {
+        right: 0%;
+      }
+      50% {
+        right: 100%;
+      }
+      100% {
+        right: 100%;    
+      }
+    }
+/* .hero{
+  background-image: url("/picture/bg31.jpg") ;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 120px 0;
+  z-index: 3;
+} */
+
+/* .hero ::before{
+  position: absolute;
+  content: "";
+  width: 40%;
+  background: #1b2f45;
+  top: 0;
+  bottom: 0;
+  
+} */
+
+/* .hero:before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  background: #1b2f45;
+  top: 0;
+  bottom: 0;
+  
+} */
+  .hero h2 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.hero blockquote {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 15px;
+  border-left: 2px solid;
+  margin: 40px 0;
+}
+

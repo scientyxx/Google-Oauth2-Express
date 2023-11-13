@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sri Alia Rosidah</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body class="page-index">
+    <!-- <header id="header" class="header d-flex align-items-center ">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="/" class="logo d-flex align-items-center">
+                <h1 class="d-flex align-items-center">Laman Login</h1>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                  </ul>
+            </a>
+        </div>
+    </header> -->
+    <section id="hero" class="hero d-flex align-items-center" >
+        
+        <div class="container-fluid">
+            <div class="row">
+                
+                
+                <div class="kananlog col-lg-6 text-white">
+                    <div id="run111" class="run1">
+                        <img src="/picture/run.gif" width="130" height="105" alt="">
+                    </div>
+                    <div id="run211" class="run2">
+                        <img src="/picture/run2.gif" width="130" height="100" alt="">
+                    </div>
+                  <div id="run311" class="run3">
+                    <img src="/picture/run3.gif" width="100" height="70" alt="">
+                  </div>
+                  <div id="run411" class="run4">
+                    <img src="/picture/run4.gif" width="80" height="60" alt="">
+                  </div>
+                  <div id="congrat" class="congrats" style="display: none;">
+                    <img src="/picture/congrat1.gif" width="180" height="200" alt="">
+                  </div>
+                </div>
+
+                <div class="kirilog col-lg-6 col-sm-6  text-center text-white">
+                    
+                    <h2 data-aos="fade-up">Hello <%= user.displayName %></h2>
+
+                 
+                  <div>
+                      <!-- <form action="/action_page.php" class="mt-5 text-center">
+                          <label for="fname">Email:</label><br>
+                          <input type="text" id="fname" name="fname" value=""><br><br>
+                          <label for="lname">Password:</label><br>
+                          <input type="text" id="lname" name="lname" value=""><br><br>
+                          <input type="submit" value="Submit">
+                      </form> -->
+                      <br><br>
+                      <a href="/" class="btn btn-primary">Logout</a>
+                  
+                  </div>
+              </div>
+
+                <div id="run111"></div>
+                <div id="run211"></div>
+                <div id="run311"></div>
+                <div id="run411"></div>
+                <div id="congrat"></div>
+                
+                <script>
+                    const run111 = document.getElementById('run111');
+                    run111.addEventListener('animationend', () => {
+                        run111.style.animation = 'none';
+                        run111.style.right = '100%';
+                    });
+                
+                    const run211 = document.getElementById('run211');
+                    run211.addEventListener('animationend', () => {
+                        run211.style.animation = 'none';
+                        run211.style.right = '100%';
+                    });
+                
+                    const run311 = document.getElementById('run311');
+                    run311.addEventListener('animationend', () => {
+                        run311.style.animation = 'none';
+                        run311.style.right = '100%';
+                    });
+
+                    const run411 = document.getElementById('run411');
+                    run411.addEventListener('animationend', () => {
+                        run411.style.animation = 'none';
+                        run411.style.right = '100%';
+                    });
+
+                    // Mengambil elemen gambar berdasarkan ID
+                    var congrat = document.getElementById('congrat');
+                    function tampilkanGambar() {
+                        setTimeout(function() {
+                            congrat.style.display = 'block';
+                        }, 6000); 
+                    }tampilkanGambar();
+
+
+                </script>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
