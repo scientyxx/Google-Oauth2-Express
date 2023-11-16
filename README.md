@@ -1,8 +1,8 @@
-# UTS_Alpro_3
+
 
 ![image](https://github.com/scientyxx/UTS_Alpro3/assets/112847958/1251d76e-3d9b-4a7e-872f-1211c049e71f)
 
-Ini adalah tugas UTS **Sri Alia Rosidah - 121103011** 
+
 
 
 ![image](https://github.com/scientyxx/UTS_Alpro3/assets/112847958/0cadaac0-df0d-43c2-8ee6-47c4f6a06578)
