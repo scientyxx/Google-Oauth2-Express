@@ -7,8 +7,8 @@ app.set('view engine', 'ejs');
 app.use(express.static("views"));
 app.use(express.static("picture"));
 app.use(express.static('css'));
-app.use('/css',express.static(__dirname +'/css'));
-app.use('/picture',express.static(__dirname +'/picture'));
+app.use('/css', express.static(__dirname + '/css'));
+app.use('/picture', express.static(__dirname + '/picture'));
 
 function isLoggedIn(req, res, next) {
   req.user ? next() : res.sendStatus(401);
@@ -27,8 +27,8 @@ app.get('/login', (req, res) => {
 });
 
 app.get('/auth/google',
-  passport.authenticate('google', { scope: [ 'email', 'profile' ] }
-));
+  passport.authenticate('google', { scope: ['email', 'profile'] }
+  ));
 
 app.get('/auth/google/callback',
   passport.authenticate('google', {
